@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: Linux 사용법
+
+nav:
+  - Home: index.md
+  - wsl: wsl_index.md
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+
+
+theme:
+  name: material
+  features:
+    - content.tabs.link
